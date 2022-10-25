@@ -15,7 +15,7 @@
 function findThreeLargestNumbers(array) {
   const threeLargest = [null, null, null];
   for (const num of array) {
-    updateLargest(threeLßargest, num);
+    updateLargest(threeLargest, num);
   }
   return threeLargest;
 }
