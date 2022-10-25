@@ -7,6 +7,10 @@
 
 //Naive approach: Much like binary search, we can use three pointers to compare values. We can iterate through the input array and as we compare values, depending on which value is the least we move that pointer right or left. At the end of the loop we can return the three numbers in a new results array. 
 
+//time complexity: With the use of our helper functions we're able to achieve a linear runtime given we only iterate through the array once. 
+
+//space complexity: We iterate in place,  using no extra space resulting in a constant space complexity.
+
 //O(n) time | O(1) space complexity
 function findThreeLargestNumbers(array) {
 const threeLargest = [null, null, null];
